@@ -1,5 +1,5 @@
 # MLOps
-- MLOps Initial Setup
+- [MLOps Initial Setup](./MLOps/Initial_Setup.md)
 - What is MLOps?
 - Why MLOps
 
