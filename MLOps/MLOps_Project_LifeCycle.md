@@ -15,3 +15,20 @@ The stages of MLOps Project Life Cycle are:
 - Continuous Evaluation
 
 Now we are going to discuss on these topics in detail below. Follow us along.
+
+## Business Understanding
+- Once we have a business problem, Data Scientists & Machine Learning Engineers will start the actual work.
+- The DS/ML Engineer should gain understanding of available data by discussing with Business decision-maker or product owner.
+
+## Data Understanding
+- Collect & Process all the relevant data into one place.
+- Analyze the data in such a way that 
+  - If the question can be answered with the existing data.
+  - If the business problem can be solved with the existing data or some extra data is needed?
+  - Data is of good quality without the missing values, outliers etc
+- Have a continuous discussion with business stakeholders to have good quality of data and good quality of model further down the line.
+
+## Data Preparation
+- Most time consuming task.
+- Feature Engineering is needed. Dependent Variables & Independent Variables separation.
+- 
