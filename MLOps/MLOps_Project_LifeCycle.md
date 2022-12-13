@@ -41,6 +41,8 @@ Now we are going to discuss on these topics in detail below. Follow us along.
 - The data quantification happens in this step.
 
 ### Feature Engineering
+- Process of deriving useful features from data set. This enables to predict dependent variables.
+- To attain this, creativity and domain/business understanding are required.
 - 
 ### Independent variables
 ### Feature Selection
