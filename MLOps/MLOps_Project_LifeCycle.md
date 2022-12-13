@@ -43,6 +43,13 @@ Now we are going to discuss on these topics in detail below. Follow us along.
 ### Feature Engineering
 - Process of deriving useful features from data set. This enables to predict dependent variables.
 - To attain this, creativity and domain/business understanding are required.
-- 
+
 ### Independent variables
+- As part of feature Engineering, we do encoding of categorical variable to numeric or creating multiple variables out of a single numerical variable.
+- Feature Engineering, Dependent Variables selection, Independent variables selection work in combination with Feature Selection and this is an iterative process.
+
 ### Feature Selection
+- Create maximum number of features and elimate them based on statistical relationship or ML Model.
+- We need to predict future data based on the past data, instead of just relying on current data. 
+  - Ex: To predict if a customer will buy a product after one year or not, we need his/her past data as well instead of just current salary.
+- **Garbage In Garbage Out (GIGO)**: If the data is not prepared correctly, any insight coming out of it is garbage.
