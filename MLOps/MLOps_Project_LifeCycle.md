@@ -53,3 +53,5 @@ Now we are going to discuss on these topics in detail below. Follow us along.
 - We need to predict future data based on the past data, instead of just relying on current data. 
   - Ex: To predict if a customer will buy a product after one year or not, we need his/her past data as well instead of just current salary.
 - **Garbage In Garbage Out (GIGO)**: If the data is not prepared correctly, any insight coming out of it is garbage.
+
+Data preparation and modeling are something which go back and forth, and this is mainly due to feature engineering and feature selection.
