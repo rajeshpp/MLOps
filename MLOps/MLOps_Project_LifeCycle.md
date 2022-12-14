@@ -66,8 +66,8 @@ Data preparation and modeling are something which go back and forth, and this is
 - The data set used to evaluate the model in this step is called test data.
 - Depending on the problem type, evaluation technique varies.
   - **Regression problem**: Predictions are continuous values
-    - Ex: price of a house or sales in the next quarter
-    - KPIs are: MAE, RMSE, and R-Squared.
+    - **Ex**: price of a house or sales in the next quarter
+    - **KPIs** are: MAE, RMSE, and R-Squared.
   - **Classification**: 
-    - Ex: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
-    - KPIs: Accuracy, Precision, Recall.
+    - **Ex**: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
+    - **KPIs** are: Accuracy, Precision, Recall.
