@@ -71,3 +71,7 @@ Data preparation and modeling are something which go back and forth, and this is
   - **Classification**: 
     - **Ex**: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
     - **KPIs** are: Accuracy, Precision, Recall.
+- The goal of evaluation process is to find a balance between underfitting and overfitting.
+  - **overfitting**: Model memorizes the data and gives best results on training data. But, the performance deteriorates when evaluated on the new data.
+  - **underfitting**: Model does not do very well on the training data. 
+- The whole idea is to find the best model which is balanced and giving best results on the future data. For that, we need to generalize the model on both training and test data.
