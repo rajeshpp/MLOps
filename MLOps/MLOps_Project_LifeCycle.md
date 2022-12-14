@@ -61,7 +61,7 @@ Data preparation and modeling are something which go back and forth, and this is
 - Diffferent ML algorithms are tried on the same dataset to find the best fit algorithm.
 - To identify if a model is good fit on the data, there should be KPIs on which models are trained.
 
-## Evaluation
+## Model Evaluation
 - Once a model is finalised from the previous step, the next step is evaluating that model.
 - The data set used to evaluate the model in this step is called test data.
 - Depending on the problem type, evaluation technique varies.
@@ -75,3 +75,12 @@ Data preparation and modeling are something which go back and forth, and this is
   - **overfitting**: Model memorizes the data and gives best results on training data. But, the performance deteriorates when evaluated on the new data.
   - **underfitting**: Model does not do very well on the training data. 
 - The whole idea is to find the best model which is balanced and giving best results on the future data. For that, we need to generalize the model on both training and test data.
+
+## Model Deployment
+- Deployed model should have the capability of stream processing and batch processing.
+- Once deployed, the ML model should be available for scoring the new data.
+- Model needs to be monitored and evaluated continuously.
+- If there is a change in the data or change in the business/process, model lifecycle needs to be revisited.
+
+## Model Consumption
+## Continuous Evaluation
