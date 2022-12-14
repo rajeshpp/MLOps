@@ -55,3 +55,19 @@ Now we are going to discuss on these topics in detail below. Follow us along.
 - **Garbage In Garbage Out (GIGO)**: If the data is not prepared correctly, any insight coming out of it is garbage.
 
 Data preparation and modeling are something which go back and forth, and this is mainly due to feature engineering and feature selection.
+
+## Modeling
+- Happens in parallel with data preparation.
+- Diffferent ML algorithms are tried on the same dataset to find the best fit algorithm.
+- To identify if a model is good fit on the data, there should be KPIs on which models are trained.
+
+## Evaluation
+- Once a model is finalised from the previous step, the next step is evaluating that model.
+- The data set used to evaluate the model in this step is called test data.
+- Depending on the problem type, evaluation technique varies.
+  - **Regression problem**: Predictions are continuous values
+    - Ex: price of a house or sales in the next quarter
+    - KPIs are: MAE, RMSE, and R-Squared.
+  - **Classification**: 
+    - Ex: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
+    - KPIs: Accuracy, Precision, Recall.
