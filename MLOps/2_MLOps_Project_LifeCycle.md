@@ -94,3 +94,12 @@ Data preparation and modeling are something which go back and forth, and this is
 - Model Drift has two flavours:
   - Concept Drift: Caused by interpterion of data.
   - Data Drift: Caused by change in the underlying data over time
+
+## Key Terminologies
+**CRISP-DM**: Cross-industry standard process for data mining.
+
+**Dependent variable**: The variable of interest, which we need to predict.
+
+**Feature engineering**: The process to create the variables which will be utilized to predict the dependent variable.
+
+**Feature selection**: The process to remove the redundant variable and selecting the useful variables.
