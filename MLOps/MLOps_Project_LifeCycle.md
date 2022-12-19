@@ -66,10 +66,10 @@ Data preparation and modeling are something which go back and forth, and this is
 - The data set used to evaluate the model in this step is called test data.
 - Depending on the problem type, evaluation technique varies.
   - **Regression problem**: Predictions are continuous values
-    - **Ex**: price of a house or sales in the next quarter
+    - **Example**: price of a house or sales in the next quarter
     - **KPIs** are: MAE, RMSE, and R-Squared.
   - **Classification**: 
-    - **Ex**: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
+    - **Example**: Whether the machine will fail or not, multiclass like whether a person is old, middle aged, or young based on a photo.
     - **KPIs** are: Accuracy, Precision, Recall.
 - The goal of evaluation process is to find a balance between underfitting and overfitting.
   - **overfitting**: Model memorizes the data and gives best results on training data. But, the performance deteriorates when evaluated on the new data.
@@ -84,10 +84,13 @@ Data preparation and modeling are something which go back and forth, and this is
 
 ## Model Consumption
 - Model Output is converted into information that can be utilized by decision makers.
-  - Example 1: Predicting most valuable customer(who is part of top n customers) and stop the right customers from leaving the business.
-  - Example 2: Forecasting the temperature & Pressure from the historical data gathered from IoT Sensors.
+  - **Example 1**: Predicting most valuable customer(who is part of top n customers) and stop the right customers from leaving the business.
+  - **Example 2**: Forecasting the temperature & Pressure from the historical data gathered from IoT Sensors.
 - In both the cases stated above, ML Model output needs to be combined with additional data or multiple ML models to deliver the outputs.
 - Consumption layer is the critical factor which decides an ML project is successful or not.
 
 ## Continuous Evaluation
-- 
+- Due to Model Drift, there may be devastating effect on the business. To avoid this, ML models need to be continuously evaluated.
+- Model Drift has two flavours:
+  - Concept Drift: Caused by interpterion of data.
+  - Data Drift: Caused by change in the underlying data over time
