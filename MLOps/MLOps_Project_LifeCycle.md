@@ -83,4 +83,11 @@ Data preparation and modeling are something which go back and forth, and this is
 - If there is a change in the data or change in the business/process, model lifecycle needs to be revisited.
 
 ## Model Consumption
+- Model Output is converted into information that can be utilized by decision makers.
+  - Example 1: Predicting most valuable customer(who is part of top n customers) and stop the right customers from leaving the business.
+  - Example 2: Forecasting the temperature & Pressure from the historical data gathered from IoT Sensors.
+- In both the cases stated above, ML Model output needs to be combined with additional data or multiple ML models to deliver the outputs.
+- Consumption layer is the critical factor which decides an ML project is successful or not.
+
 ## Continuous Evaluation
+- 
