@@ -4,7 +4,7 @@ MLOps Project has a Life Cycle which needs to be followed to have an effective b
 
 ![image](https://user-images.githubusercontent.com/19406666/206919780-59fae1bd-7b96-4065-8431-10950e0e8696.png)
 
-The stages of MLOps Project Life Cycle are:
+The stages of MLOps Project Life Cycle are: {CRISP-DM & CRISP-DM Extension}
 - Business Understanding
 - Data Understanding
 - Data Preparation
