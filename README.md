@@ -1,6 +1,6 @@
 # MLOps
-- [MLOps Initial Setup](./MLOps/Initial_Setup.md)
-- [MLOps Project Life Cycle](./MLOps/MLOps_Project_LifeCycle.md)
+- [MLOps Initial Setup](./MLOps/1_Initial_Setup.md)
+- [MLOps Project Life Cycle](./MLOps/2_MLOps_Project_LifeCycle.md)
 - What is MLOps?
 - Why MLOps
 
