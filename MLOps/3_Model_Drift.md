@@ -13,3 +13,8 @@ Model Drift can be categorised into:
 1. **Concept Drift**: When the statistical properties of the target variable itself change.
 2. **Data Drift**: When the statistical properties of the predictors (underlying variables) change. </br>
     Example: Flight demand surges during the holiday seasons, airlines struggle to maintain occupancy in the off-seasons.
+
+## How to Address this?
+Only way to address this is to have a MLOps pipeline which will keep on re-training the model and giving the results of the model experiments. As soon as a model drift is identified, ML Engineer or Data Scientist needs to re-develop the model, train & test it, Deploy that into production.
+
+Since, this is a cyclic process, automate your process as much as possible and build pipelines to do all this processes in an automated approach.
